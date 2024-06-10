@@ -16,7 +16,7 @@ This plugin locks those variables to their default values, and prevents campaign
 - `z_mega_mob_size` (default: 50)
 
 #### Todo:
-- [ ] Add leniencies.
+- [x] Add leniencies.
 - [ ] Cleanup code.
 - [ ] Create admin convars.
 
