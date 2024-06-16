@@ -45,10 +45,10 @@ public void OnPluginStart()
 
     RegAdminCmd("sm_set_common_limit", Cmd_SetCommonLimit, ADMFLAG_GENERIC);
 
-    leeway_common = 0 + DEFAULT_COMMON; // 30
+    leeway_common = 30 + DEFAULT_COMMON; // 30
     leeway_min = 20 + DEFAULT_MIN;      // 10 (Some Vanilla Campaigns Change This)
     leeway_max = 30 + DEFAULT_MAX;      // 30
-    leeway_mob = 10 + DEFAULT_MOB;      // 50
+    leeway_mob = 40 + DEFAULT_MOB;      // 50
 
 }
 Action Cmd_SetCommonLimit(int client, int args)
